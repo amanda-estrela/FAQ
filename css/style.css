@@ -1,11 +1,14 @@
-body{
+*{
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-attachment: fixed;
+}
+
+body{
+    margin: 4rem 1.5rem 5rem 2.5rem;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
     height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+    background: white;
 }
 
 .pergunta:active {
