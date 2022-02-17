@@ -12,7 +12,6 @@ body{
     background-color: white;
     border-radius: 10px;
     padding: 3rem 2rem;
-
     justify-content: space-between;
 }
 
@@ -22,6 +21,7 @@ body{
 
 .pergunta {
     display: inline-block;
+    width: 60vw;
 }
 
 .pergunta__seta {
@@ -37,4 +37,8 @@ body{
 
 .resposta {
     display: none;
+}
+
+.respostaAtiva {
+    display: block;
 }
