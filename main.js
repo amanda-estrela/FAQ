@@ -1,15 +1,15 @@
 const answer = document.querySelectorAll('.resposta')
-const botaoSeta = document.querySelectorAll('.pergunta__seta')
+const question = document.querySelectorAll('.pergunta')
 
 
-/*botaoSeta.addEventListener('click', () => {
+/*question.addEventListener('click', () => {
     answer.classList.remove('resposta');
     answer.classList.add('respostaAtiva');
    }
 )*/
 
-/*for (let contador = 0; contador < answer.length; contador++){
-    botaoSeta[contador].addEventListener('click', () =>{
-        answer[contador].classList.toggle(respostaAtiva);
+for (let contador = 0; contador < question.length; contador++){
+    question[contador].addEventListener('click', () =>{
+    answer[contador].classList.toggle('respostaAtiva');
     })
-}*/
+}

@@ -29,16 +29,16 @@ body{
     justify-content: right;
 }
 
-
+/*
 .pergunta:active {
     font-weight: 700;
 
-}
+}*/
 
 .resposta {
     display: none;
 }
 
 .respostaAtiva {
-    display: block;
+    display: inline;
 }
