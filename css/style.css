@@ -12,7 +12,23 @@ body{
     background-color: white;
     border-radius: 10px;
     padding: 3rem 2rem;
+
+    justify-content: space-between;
 }
+
+.questionario:not(.pergunta__seta){
+    flex-direction: column;
+}
+
+.pergunta {
+    display: inline-block;
+}
+
+.pergunta__seta {
+    display: inline-block;
+    justify-content: right;
+}
+
 
 .pergunta:active {
     font-weight: 700;
