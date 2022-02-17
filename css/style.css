@@ -1,11 +1,28 @@
 
 body{
-    margin: 4rem 1.5rem 5rem 2.5rem;
+    margin: 1rem 2rem 5rem;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 12px;
+    font-weight: 400;
     height: 100%;
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     min-height: 100vh;
+    color: hsl(237, 12%, 33%);
+}
+
+.background-topo img{
+    position: relative;
+    top: 1rem;
+    
+}
+
+ h1 {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
 }
 
 .questionario {
@@ -19,9 +36,19 @@ body{
     flex-direction: column;
 }
 
+.questionario__unidade {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
 .pergunta {
     display: inline-block;
     width: 60vw;
+    margin: 1rem auto;
+}
+
+.perguntaAtiva {
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
 }
 
 .pergunta__seta {
@@ -29,16 +56,29 @@ body{
     justify-content: right;
 }
 
-/*
-.pergunta:active {
-    font-weight: 700;
-
-}*/
+.pergunta__setaAtiva {
+    transform: scaleY(-1);
+}
 
 .resposta {
     display: none;
+    margin-bottom: 1rem;
 }
 
 .respostaAtiva {
-    display: inline;
+    display: block;
+    font-size: 11px;
+    color:hsl(240, 6%, 50%);
+}
+
+.attribution {
+    margin: 2rem;
+    padding: 2rem;
+}
+.attribution a {
+    text-decoration: none;
+    color: black;
+}
+.attribution a:hover {
+    font-weight: 700;
 }
