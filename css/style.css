@@ -11,12 +11,12 @@ body{
 }
 .imagem-sombra {
     position: relative;
-    top: 9rem;
-    left: 2.5rem;
+    top: 8.5rem;
+    left: 2rem;
 }
 
 .imagem{
-    width: 250px;    
+    width: 245px;    
     position: absolute;
     top: 2.5rem;
     left: 4rem;
@@ -24,7 +24,7 @@ body{
 
  h1 {
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 5.5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 700;
@@ -32,8 +32,9 @@ body{
 }
 
 .questionario {
+    margin-top: 30px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 3rem 2rem;
     justify-content: space-between;
     height: max-content;
