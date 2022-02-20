@@ -13,10 +13,11 @@ body{
     position: relative;
     top: 8.5rem;
     left: 2rem;
+    width: 80%;
 }
 
 .imagem-mobile{
-    width: 245px;    
+    width: 65%;    
     position: absolute;
     top: 2.5rem;
     left: 4rem;
@@ -144,6 +145,10 @@ body{
     }
     .perguntaAtiva:hover {
         color: hsl(238, 29%, 16%) ;
+    }
+
+    .pergunta__seta {
+        text-align: end ;
     }
     
 }
