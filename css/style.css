@@ -9,20 +9,24 @@ body{
     min-height: 100vh;
     color: hsl(237, 12%, 33%);
 }
-.imagem-sombra {
+.imagem-sombra-mobile {
     position: relative;
     top: 8.5rem;
     left: 2rem;
 }
 
-.imagem{
+.imagem-mobile{
     width: 245px;    
     position: absolute;
     top: 2.5rem;
     left: 4rem;
 }
 
- h1 {
+.imagem-caixa-desktop, .imagem-sombra-desktop, .imagem-desktop{
+    display: none;
+}
+
+ .titulo {
     text-align: center;
     margin-top: 5.5rem;
     margin-bottom: 2rem;
@@ -47,6 +51,7 @@ body{
 .questionario__unidade {
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
+
 
 .pergunta {
     display: inline-block;
@@ -90,4 +95,55 @@ body{
 }
 .attribution a:hover {
     font-weight: 700;
+}
+
+@media screen and (min-width:768px) {
+    .imagem-mobile, .imagem-sombra-mobile {
+        display: none;
+    }
+
+     .questionario {
+        position: relative;
+        top: 100px;
+        left: 250px;
+        margin: 10% 20%;
+    }
+    .imagem-sombra-desktop {
+            display: inline-block;
+            position: absolute;
+            top: -100px;
+            left: -200px;
+            
+        }
+    .imagem-caixa-desktop {
+        display: inline-block;
+        position: absolute;
+        top: 330px;
+        left: 190px;
+    }
+
+    .imagem-desktop {
+        display: inline-block;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+
+
+    .titulo {
+        margin-top: 0;
+    }
+
+    .pergunta {
+        width: auto;
+    }
+   
+
+    .pergunta:hover {
+        color: hsl(14, 88%, 65%);
+    }
+    .perguntaAtiva:hover {
+        color: hsl(238, 29%, 16%) ;
+    }
+    
 }

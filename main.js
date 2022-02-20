@@ -10,4 +10,3 @@ for (let contador = 0; contador < question.length; contador++){
     })
 }
 
-
