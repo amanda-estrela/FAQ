@@ -1,154 +1,172 @@
-
-body{
-    margin: 1rem 2rem 5rem;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    height: 100%;
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    min-height: 100vh;
-    color: hsl(237, 12%, 33%);
+body {
+  margin: 1rem 2rem 5rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background: linear-gradient(#af67e9, #6565e7);
+  min-height: 100vh;
+  color: #4a4b5e;
 }
+
 .imagem-sombra-mobile {
-    position: relative;
-    top: 8.5rem;
-    left: 2rem;
-    width: 80%;
+  position: relative;
+  top: 8.5rem;
+  left: 2rem;
+  width: 80%;
 }
 
-.imagem-mobile{
-    width: 65%;    
-    position: absolute;
-    top: 2.5rem;
-    left: 4rem;
+.imagem-mobile {
+  width: 65%;
+  position: absolute;
+  top: 2.5rem;
+  left: 4rem;
 }
 
-.imagem-caixa-desktop, .imagem-sombra-desktop, .imagem-desktop{
-    display: none;
+.imagem-caixa-desktop, .imagem-sombra-desktop, .imagem-desktop {
+  display: none;
 }
 
- .titulo {
-    text-align: center;
-    margin-top: 5.5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    font-weight: 700;
-    color: hsl(238, 29%, 16%);
+.titulo {
+  text-align: center;
+  margin-top: 5.5rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1d1e35;
 }
 
 .questionario {
-    margin-top: 30px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 3rem 2rem;
-    justify-content: space-between;
-    height: max-content;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  justify-content: space-between;
+  height: max-content;
 }
 
-.questionario:not(.pergunta__seta){
-    flex-direction: column;
+.questionario:not(.pergunta__seta) {
+  flex-direction: column;
 }
 
 .questionario__unidade {
-    border-bottom: 1px solid hsl(240, 5%, 91%);
+  border-bottom: 1px solid #e7e7e9;
 }
 
-
 .pergunta {
-    display: inline-block;
-    width: 60vw;
-    margin: 1rem auto;
+  display: inline-block;
+  width: 60vw;
+  margin: 1rem auto;
 }
 
 .perguntaAtiva {
-    font-weight: 700;
-    color: hsl(238, 29%, 16%);
+  font-weight: 700;
+  color: #1d1e35;
 }
 
 .pergunta__seta {
-    display: inline-block;
-    justify-content: right;
+  display: inline-block;
+  justify-content: right;
 }
 
 .pergunta__setaAtiva {
-    transform: scaleY(-1);
+  transform: scaleY(-1);
 }
 
 .resposta {
-    display: none;
-    margin-bottom: 1rem;
+  display: none;
+  margin-bottom: 1rem;
 }
 
 .respostaAtiva {
-    display: block;
-    font-size: 11px;
-    color:hsl(240, 6%, 50%);
+  display: block;
+  font-size: 11px;
+  color: #787887;
 }
 
 .attribution {
-    margin: 2rem;
-    padding: 2rem;
-    color: hsl(238, 29%, 16%);
+  margin: 2rem;
+  padding: 2rem;
+  color: #1d1e35;
 }
 .attribution a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .attribution a:hover {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-@media screen and (min-width:768px) {
-    .imagem-mobile, .imagem-sombra-mobile {
-        display: none;
-    }
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    line-height: normal;
+    overflow: hidden;
+  }
 
-     .questionario {
-        position: relative;
-        top: 100px;
-        left: 250px;
-        margin: 10% 20%;
-    }
-    .imagem-sombra-desktop {
-            display: inline-block;
-            position: absolute;
-            top: -100px;
-            left: -200px;
-            
-        }
-    .imagem-caixa-desktop {
-        display: inline-block;
-        position: absolute;
-        top: 330px;
-        left: 190px;
-    }
+  .imagem-mobile, .imagem-sombra-mobile {
+    display: none;
+  }
 
-    .imagem-desktop {
-        display: inline-block;
-        position: absolute;
-        top: 200px;
-        left: 200px;
-    }
+  .questionario {
+    margin: 8% 15%;
+    display: inline-block;
+    width: 35vw;
+    height: 50vh;
+    padding-left: 40%;
+  }
 
+  .titulo {
+    text-align: start;
+  }
 
-    .titulo {
-        margin-top: 0;
-    }
+  .imagem-sombra-desktop {
+    display: inline-block;
+    position: absolute;
+    top: -170px;
+    left: -280px;
+    width: 60%;
+    overflow: hidden;
+  }
 
-    .pergunta {
-        width: auto;
-    }
-   
+  .imagem-caixa-desktop {
+    display: inline-block;
+    position: absolute;
+    top: 330px;
+    left: 190px;
+  }
 
-    .pergunta:hover {
-        color: hsl(14, 88%, 65%);
-    }
-    .perguntaAtiva:hover {
-        color: hsl(238, 29%, 16%) ;
-    }
+  .imagem-desktop {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 11%;
+  }
 
-    .pergunta__seta {
-        text-align: end ;
-    }
-    
+  .titulo {
+    margin-top: 0;
+  }
+
+  .pergunta {
+    max-width: 450px;
+    width: auto;
+  }
+  .pergunta:hover {
+    color: #f47c57;
+  }
+
+  .perguntaAtiva:hover {
+    color: #1d1e35;
+  }
+
+  .pergunta__seta {
+    text-align: right;
+  }
+
+  .attribution {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
