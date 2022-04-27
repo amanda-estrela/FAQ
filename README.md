@@ -2,7 +2,6 @@
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
-## Olá! 👋
 
 <h1 align="center">Desafio FrontendMentor - FAQ</h1>
 
