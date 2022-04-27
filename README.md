@@ -18,7 +18,7 @@
 </p>
 
 <h4 align="center"> 
-	🏡  Projeto MZ Versão 1.0 finalizada  🏡
+ Desafio FrontendMentor - FAQ Versão 1.0 finalizado  
 </h4>
 
 ### Objetivos
