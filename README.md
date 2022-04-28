@@ -5,7 +5,7 @@
 
 <h1 align="center">Desafio FrontendMentor - FAQ</h1>
 
-<p align="center">Site para um escritório fictício de arquitetura, criado com o objetivo de exercitar meus conhecimentos em HTML e CSS.</p>
+<p align="center">Desafio escolhido do site Frontend Mentor, é uma página de FAQ, com a proposta de treinar habilidades de HTML, CSS e JavaScript.</p>
 
 <p align="center">
  <a href="#objetivos">Objetivos</a> •
