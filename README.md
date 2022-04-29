@@ -22,12 +22,12 @@
 
 ### Objetivos
 
-Este projeto foi criado para que pudesse por em prática meus aprendizados iniciais nos estudos de Front-end.  
+Este projeto foi selecionado para que pudesse por em prática meus aprendizados iniciais nos estudos de Front-end. <br>As perguntas ficam com o texto em negrito quando o mouse está por cima, e no click o conteúdo das respostas é exibido(uso do JavaScript).
 
 ### Features
 
-- [x] Galeria de imagens
-- [x] Formulário de contato
+- [x] Pergunta em destaque no mouse hover
+- [x] Mostra/esconde respostas quando clicado
 - [ ] Responsividade
 
 ### Deploy
@@ -42,9 +42,9 @@ Este projeto foi criado para que pudesse por em prática meus aprendizados inici
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML]
-- [CSS]
-- [SASS]
+- HTML
+- CSS
+- JavaScript
 
 
 ### Autora
